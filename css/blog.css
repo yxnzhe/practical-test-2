@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #EAEAEA;
+  height: auto;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+h1{
+  margin-left: 50px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #FFE8EC;
+  color: black;
+}
+
+.box{ /*FOR BLOG 1*/
+  width: 1333px;
+  height: auto;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  display: inline-block;
+}
+
+.footer {
+  text-align: center;
+  padding: 1px;
+  background-color: #EBEBEB;
+  color: #606060;
+}
+
+.textbox{
+  width: 1200px;
+  height: auto;
+  background-color: #FFFFFF;
+  margin-left: 50px;
+}
+
+.photobox{
+  width: auto;
+  height: auto;
+  margin-left: 30px;
+  display: inline-block;
+  background-color: none;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 30.5%;
+  left: 90%;
+  /* left: 77.25%; */
+  max-width: 80px;
+  width: 100%;
+  font-size: 13px;
+  border-color: #FFFFFF
+  color: #000000;
+  background-color: #646464;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #FFE8EC;
+  color: #000000;
+}
