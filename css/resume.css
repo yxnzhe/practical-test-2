@@ -38,21 +38,14 @@ body{
   color: #606060;
 }
 
-.namebox, .detailsbox{
+.namebox{
   height: 200px;
+  width: 1000px;
   /* background-color: #FFFFFF; */
   /* padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px; */
   display: inline-block;
-}
-.namebox{
-  width: 525px;
-}
-
-.detailsbox{
-  margin-left: 60px;
-  width: 480px;
 }
 
 .photobox{
@@ -70,13 +63,6 @@ body{
   margin-left: 50px;
 }
 
-/* td{
-  text-align: center;
-}
-
-tr{
-  border-radius:
-} */
 table,th,td{
   border: 2px solid black;
   border-color: #000000;
@@ -181,14 +167,12 @@ p{
   color: black;
 }
 
-/*Floating Back-To-Top Button*/
 #myBtn {
   position: fixed;
   bottom: 10px;
   float: right;
   right: 30.5%;
   left: 90%;
-  /* left: 77.25%; */
   max-width: 80px;
   width: 100%;
   font-size: 13px;
@@ -198,7 +182,7 @@ p{
   padding: 20px;
   border-radius: 4px;
 }
-/*On Hover Color Change*/
+
 #myBtn:hover {
   background-color: #FFE8EC;
   color: #000000;
